@@ -1,0 +1,77 @@
+{
+    "Question1": [
+        {
+            "LLM": "gemini-2.5-flash",
+            "Extrcated Triples": [
+                {
+                    "subject": "345",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "20.71%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "Indicates the interest rate associated with the subject."
+                },
+                {
+                    "subject": "350",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "20.19%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "Indicates the interest rate associated with the subject."
+                },
+                {
+                    "subject": "348",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "20.398%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "Indicates the interest rate associated with the subject."
+                }
+            ],
+            "Canonicalized triples": [
+                {
+                    "original": {
+                        "subject": "345",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "20.71%"
+                    },
+                    "canonical": {
+                        "subject": "345",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "20.71%"
+                    },
+                    "match_confidence": "MEDIUM"
+                },
+                {
+                    "original": {
+                        "subject": "350",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "20.19%"
+                    },
+                    "canonical": {
+                        "subject": "350",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "20.19%"
+                    },
+                    "match_confidence": "MEDIUM"
+                },
+                {
+                    "original": {
+                        "subject": "348",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "20.398%"
+                    },
+                    "canonical": {
+                        "subject": "348",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "20.398%"
+                    },
+                    "match_confidence": "MEDIUM"
+                }
+            ],
+            "Hallcuination detected": "1 fabricated fact ",
+            "Actual number of hallcuination": "1 fabricate dfact correctly caught",
+            "Ratio of detection to actual": ""
+        }
+    ]
+}

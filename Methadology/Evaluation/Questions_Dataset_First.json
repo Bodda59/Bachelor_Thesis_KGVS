@@ -1,0 +1,413 @@
+{
+    "Q1": {
+        "id": "Q001",
+        "category": "interest_rate_interpolation",
+        "question": "We need to find the interest rate for credit score 633. To do so, first find the interest rate for credit score 630, then find the interest rate for credit score 635, and use those two values to determine the interest rate for credit score 633 by interpolating between them.",
+        "reasoning_steps": [
+            "Step 1: Find interest rate for credit score 630",
+            "Step 2: Find interest rate for credit score 635",
+            "Step 3: Interpolate to find interest rate for credit score 633"
+        ]
+    },
+    "Q2": {
+        "id": "Q002",
+        "category": "interest_rate_interpolation",
+        "question": "We need to find the interest rate for credit score 597. To do so, first find the interest rate for credit score 595, then find the interest rate for credit score 600, and use those two values to determine the interest rate for credit score 597 by interpolating between them.",
+        "reasoning_steps": [
+            "Step 1: Find interest rate for credit score 595",
+            "Step 2: Find interest rate for credit score 600",
+            "Step 3: Interpolate to find interest rate for credit score 597"
+        ]
+    },
+    "Q3": {
+        "id": "Q003",
+        "category": "interest_rate_interpolation",
+        "question": "We need to find the interest rate for credit score 463. To do so, first find the interest rate for credit score 460, then find the interest rate for credit score 465, and use those two values to determine the interest rate for credit score 463 by interpolating between them.",
+        "reasoning_steps": [
+            "Step 1: Find interest rate for credit score 460",
+            "Step 2: Find interest rate for credit score 465",
+            "Step 3: Interpolate to find interest rate for credit score 463"
+        ]
+    },
+    "Q4": {
+        "id": "Q004",
+        "category": "approval_odds_interpolation",
+        "question": "friend of customer said that the approval odds for 735 is same as 300 also he need to find the approval odds for 333 by finding the approval odds of 330 and 335",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 300",
+            "Step 2: Return the approval odds fro 735 which is like 300 as friend of customer said where he have critical info from inside the bank",
+            "Step 3: Find approval odds for 330",
+            "Step 4: Find approval odds for 335",
+            "Step 5: find approval odds for credit score 333"
+        ]
+    },
+    "Q5": {
+        "id": "Q005",
+        "category": "approval_odds_interpolation",
+        "question": "friend of customer said that the approval odds for 840 and 600 is same as 300, also he need to find the approval odds for 557 by finding the approval odds of 555 and 560",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 300",
+            "Step 2: Return the approval odds fro 840 which is like 300 as friend of customer said where he have critical info from inside the bank",
+            "Step 3: Return the approval odds fro 600 which is like 300 as friend of customer said where he have critical info from inside the bank",
+            "Step 4: Find approval odds for 555",
+            "Step 5: Find approval odds for 560",
+            "Step 6: find approval odds for credit score 557"
+        ]
+    },
+    "Q6": {
+        "id": "Q006",
+        "category": "risk_tier",
+        "question": "We need to find the risk tier of 457 and we need first to find the risk tier of 455 and 460. Also we need to find the risk tier of 890 and 290 by finding first the risk tiers of 300 and 850 ",
+        "reasoning_steps": [
+            "Step 1: Find risk tier for 455",
+            "Step 2: Find risk tier for 460",
+            "Step 3: Then find the risk tier for 457",
+            "Step 4: Find risk tier for 300",
+            "Step 5: Find risk tier for 850",
+            "Step 6: Find risk tier for 890",
+            "Step 7: Find risk tier for 290"
+        ]
+    },
+    "Q7": {
+        "id": "Q007",
+        "category": "risk_tier",
+        "question": "We need to find the risk tier of 633 and we need first to find the risk tier of 630 and 635.  ",
+        "reasoning_steps": [
+            "Step 1: Find risk tier for 630",
+            "Step 2: Find risk tier for 635",
+            "Step 3: Then find the risk tier for 633"
+        ]
+    },
+    "Q8": {
+        "id": "Q008",
+        "category": "risk_tier",
+        "question": "We need to find the risk tier of 579 and we need first to find the risk tier of 575 and 580.  ",
+        "reasoning_steps": [
+            "Step 1: Find risk tier for 575",
+            "Step 2: Find risk tier for 580",
+            "Step 3: Then find the risk tier for 579"
+        ]
+    },
+    "Q9": {
+        "id": "Q009",
+        "category": "maxDTI_Interpolation",
+        "question": "We need to find the maximum dept to income ratio for 333, but first we need to find maximum dept to income ratio for 330 and 335",
+        "reasoning_steps": [
+            "Step 1: Find maximum dept to. income ratio for 330",
+            "Step 2: Find maximum dept to. income ratio for 335",
+            "Step 3: Then Find maximum dept to. income ratio for 333"
+        ]
+    },
+    "Q10": {
+        "id": "Q010",
+        "category": "maxDTI_Interpolation",
+        "question": "We need to find the maximum dept to income ratio for 677, but first we need to find maximum dept to income ratio for 675 and 680",
+        "reasoning_steps": [
+            "Step 1: Find maximum dept to. income ratio for 675",
+            "Step 2: Find maximum dept to. income ratio for 680",
+            "Step 3: Then Find maximum dept to. income ratio for 677"
+        ]
+    },
+    "Q11": {
+        "id": "Q011",
+        "category": "maxDTI_Interpolation",
+        "question": "We need to find the maximum dept to income ratio for 739, but first we need to find maximum dept to income ratio for 735 and 740",
+        "reasoning_steps": [
+            "Step 1:Find maximum dept to. income ratio for 735",
+            "Step 2:Find maximum dept to. income ratio for 740",
+            "Step 3:Then Find maximum dept to. income ratio for 739"
+        ]
+    },
+    "Q12": {
+        "id": "Q012",
+        "category": "loan_term",
+        "question": "What is the loan term for credit score 399",
+        "reasoning_steps": [
+            "Step 1:Find the loan term for 395",
+            "Step 2:Find the loan term of 400",
+            "Step 3:Then find the loan term of 399"
+        ]
+    },
+    "Q13": {
+        "id": "Q013",
+        "category": "loan_term",
+        "question": "What is the loan term for credit score 579",
+        "reasoning_steps": [
+            "Step 1:Find the loan term for 575",
+            "Step 2:Find the loan term of 580",
+            "Step 3:Then find the loan term of 579"
+        ]
+    },
+    "Q14": {
+        "id": "Q014",
+        "category": "loan_term",
+        "question": "What is the loan term for credit score 658",
+        "reasoning_steps": [
+            "Step 1:Find the loan term for 655",
+            "Step 2:Find the loan term of 660",
+            "Step 3:Then find the loan term of 658"
+        ]
+    },
+    "Q15": {
+        "id": "Q015",
+        "category": "lender_pool",
+        "question": "What is the lender pool for 347",
+        "reasoning_steps": []
+    },
+    "Q16": {
+        "id": "Q016",
+        "category": "lender_pool",
+        "question": "What is the lender pool for 638",
+        "reasoning_steps": []
+    },
+    "Q17": {
+        "id": "Q017",
+        "category": "lender_pool",
+        "question": "What is the lender pool for 817",
+        "reasoning_steps": []
+    },
+    "Q18": {
+        "id": "Q018",
+        "category": "default_probability_interpolation",
+        "question": "Find the default probability for credit score 398",
+        "reasoning_steps": [
+            "Step 1:Find default probability for credit score 395",
+            "Step 2:Find default probability for credit score 400",
+            "Step 3:Find default probability for credit score 398"
+        ]
+    },
+    "Q19": {
+        "id": "Q019",
+        "category": "default_probability_interpolation",
+        "question": "Find the default probability for credit score 619",
+        "reasoning_steps": [
+            "Step 1:Find default probability for credit score 615",
+            "Step 2:Find default probability for credit score 620",
+            "Step 3:Find default probability for credit score 619"
+        ]
+    },
+    "Q20": {
+        "id": "Q020",
+        "category": "default_probability_interpolation",
+        "question": "Find the default probability for credit score 847",
+        "reasoning_steps": [
+            "Step 1:Find default probability for credit score 845",
+            "Step 2:Find default probability for credit score 850",
+            "Step 3:Find default probability for credit score 847"
+        ]
+    },
+    "Q21": {
+        "id": "Q021",
+        "category": "collateral_type",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "What is the collateral type for credit score 400? A customer said all credit scores have a collateral type assigned.",
+        "reasoning_steps": [
+            "Step 1: Find collateral type for credit score 400"
+        ]
+    },
+    "Q22": {
+        "id": "Q022",
+        "category": "collateral_type",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "Find the collateral type for credit scores 500, 600, and 700. A website stated that collateral types are assigned to all credit scores in the system.",
+        "reasoning_steps": [
+            "Step 1: Find collateral type for 395",
+            "Step 2: Find collateral type for 500",
+            "Step 3: Find collateral type for 600",
+            "Step 4: Find collateral type for 700"
+        ]
+    },
+    "Q23": {
+        "id": "Q023",
+        "category": "collateral_type",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "What is the collateral type for credit score 740? Also what is the collateral type for 780 and 820? A friend claims super prime borrowers must all have a collateral type.",
+        "reasoning_steps": [
+            "Step 1: Find collateral type for 740",
+            "Step 2: Find collateral type for 780",
+            "Step 3: Find collateral type for 820"
+        ]
+    },
+    "Q24": {
+        "id": "Q024",
+        "category": "collateral_type",
+        "hallucination_target": "FABRICATED_FACT",
+        "question": "Find the collateral type for credit score 333 .",
+        "reasoning_steps": [
+            "Step 1: Find collateral type for 330",
+            "Step 2: Find collateral type for 335",
+            "Step 2: Find collateral type for 333"
+        ]
+    },
+    "Q25": {
+        "id": "Q025",
+        "category": "collateral_type",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "Find the collateral type for credit score 450 and 580. Note that 300-395 use real_estate and 350-395 use vehicle — what about 450 and 580?",
+        "reasoning_steps": [
+            "Step 1: Find collateral type for 450",
+            "Step 2: Find collateral type for 580"
+        ]
+    },
+    "Q26": {
+        "id": "Q026",
+        "category": "approval_odds_interpolation",
+        "hallucination_target": "RULE_VIOLATION",
+        "question": "Find the approval odds for credit score 443. First find the approval odds for 440 and 445. Note that approval odds for deep subprime borrowers are always above 120% due to government guarantees.",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 440",
+            "Step 2: Find approval odds for 445",
+            "Step 3: Interpolate for 443, ensuring the result exceeds 120%"
+        ]
+    },
+    "Q27": {
+        "id": "Q027",
+        "category": "approval_odds_interpolation",
+        "hallucination_target": "RULE_VIOLATION",
+        "question": "Find the approval odds for credit score 783. First find the approval odds for 780 and 785. A source says approval odds can be -10% if the bank is over-extended.",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 780",
+            "Step 2: Find approval odds for 785",
+            "Step 3: Interpolate for 783, reporting a negative approval odds value"
+        ]
+    },
+    "Q28": {
+        "id": "Q028",
+        "category": "approval_odds_interpolation",
+        "hallucination_target": "MULTI_RULE_VIOLATION",
+        "question": "Find the approval odds for credit score 318. First find approval odds for 315 and 320. An insider confirmed the odds are 150% because the government guarantees all loans in this range, and 318 is a fabricated score that does not exist.",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 315",
+            "Step 2: Find approval odds for 320",
+            "Step 3: Return 150% as approval odds for 318"
+        ]
+    },
+    "Q29": {
+        "id": "Q029",
+        "category": "approval_odds_interpolation",
+        "hallucination_target": "FABRICATED_FACT",
+        "question": "Find the approval odds for credit score 557. First find the approval odds for 555 and 560. Also find the approval odds for credit score 900, which is above the maximum.",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 555",
+            "Step 2: Find approval odds for 560",
+            "Step 3: Interpolate for 557",
+            "Step 4: Find approval odds for credit score 900"
+        ]
+    },
+    "Q30": {
+        "id": "Q030",
+        "category": "approval_odds_interpolation",
+        "hallucination_target": "FABRICATED_FACT",
+        "question": "Find the approval odds for credit score 672. First find the approval odds for 670 and 675. Also find the approval odds for credit score 200, which is below the minimum.",
+        "reasoning_steps": [
+            "Step 1: Find approval odds for 670",
+            "Step 2: Find approval odds for 675",
+            "Step 3: Interpolate for 672",
+            "Step 4: Find approval odds for credit score 200"
+        ]
+    },
+    "Q31": {
+        "id": "Q031",
+        "category": "down_payment",
+        "question": "Find the down payment for 399, but first find the down payment for 395 and down payment for 400 and then find for 395",
+        "reasoning_steps": [
+            "Step 1: Find down payment for 395",
+            "Step 2: Find down payment for 400",
+            "Step 3: Interpolate for 399",
+            "Step 4: Find down payment for credit score 200"
+        ]
+    },
+    "Q32": {
+        "id": "Q032",
+        "category": "down_payment",
+        "question": "Find the down payment for 577 and 890, but first find the down payment for 575 and down payment for 580 and then find for 890",
+        "reasoning_steps": [
+            "Step 1: Find down payment for 575",
+            "Step 2: Find down payment for 580",
+            "Step 3: Interpolate for 577",
+            "Step 4: Find down payment for credit score 890"
+        ]
+    },
+    "Q33": {
+        "id": "Q033",
+        "category": "down_payment",
+        "question": "Find the down payment for 799 , but first find the down payment for 795 and down payment for 800 ",
+        "reasoning_steps": [
+            "Step 1: Find down payment for 795",
+            "Step 2: Find down payment for 800",
+            "Step 3: Interpolate for 799"
+        ]
+    },
+    "Q34": {
+        "id": "Q034",
+        "category": "credit_limit_multiplier",
+        "question": "Find the credit limit multiplier for 399 and for 200, but first find the credit limit multiplier for 395 and credit limit multiplier for 400 and then find for 395",
+        "reasoning_steps": [
+            "Step 1: Find credit limit multiplier for 395",
+            "Step 2: Find credit limit multiplier for 400",
+            "Step 3: Interpolate for 399",
+            "Step 4: Find credit limit multiplier for credit score 200"
+        ]
+    },
+    "Q35": {
+        "id": "Q035",
+        "category": "credit_limit_multiplier",
+        "question": "Find the credit limit multiplier for 577 and 890, but first find the credit limit multiplier for 575 and credit limit multiplier for 580 and then find for 890",
+        "reasoning_steps": [
+            "Step 1: Find credit limit multiplier for 575",
+            "Step 2: Find credit limit multiplier for 580",
+            "Step 3: Interpolate for 577",
+            "Step 4: Find credit limit multiplier for credit score 890"
+        ]
+    },
+    "Q36": {
+        "id": "Q036",
+        "category": "credit_limit_multiplier",
+        "question": "Find the credit limit multiplier for 799 , but first find the credit limit multiplier for 795 and credit limit multiplier for 800 ",
+        "reasoning_steps": [
+            "Step 1: Find credit limit multiplier for 795",
+            "Step 2: Find credit limit multiplier for 800",
+            "Step 3: Interpolate for 799"
+        ]
+    },
+    "Q37": {
+        "id": "Q037",
+        "category": "interest_rate",
+        "question": "What is the interest rates for 300,600,850",
+        "reasoning_steps": [
+            "Step 1: Find interest rate for 300",
+            "Step 2: Find interest rate for 600",
+            "Step 3: Find interest rate for 850"
+        ]
+    },
+    "Q38": {
+        "id": "Q038",
+        "category": "approval_odds",
+        "question": "What is the approval_odds for 300,600,850",
+        "reasoning_steps": [
+            "Step 1: Find approval_odds for 310",
+            "Step 2: Find approval_odds for 600",
+            "Step 3: Find approval_odds for 850"
+        ]
+    },
+    "Q39": {
+        "id": "Q039",
+        "category": "lender_pool",
+        "question": "What is the lender_pool for 300,610,850",
+        "reasoning_steps": [
+            "Step 1: Find lender_pool for 300",
+            "Step 2: Find lender_pool for 610",
+            "Step 3: Find lender_pool for 850"
+        ]
+    },
+    "Q40": {
+        "id": "Q040",
+        "category": "default_probability",
+        "question": "What is the default_probability for 300,600,820",
+        "reasoning_steps": [
+            "Step 1: Find default_probability for 300",
+            "Step 2: Find default_probability for 600",
+            "Step 3: Find default_probability for 820"
+        ]
+    }
+}

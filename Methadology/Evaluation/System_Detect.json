@@ -1,0 +1,1402 @@
+{
+    "Q1": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q2": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q3": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q4": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact, 0/1 logical inconssitency"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact"
+        }
+    },
+    "Q5": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact, 3/2 fabricated fact 1 fabricated fact is not fabricated fact as it said that giving subject like this 540-575 is wrong, 4/4 logical inconsistencies detected correctly"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact,2/2 fabricated facts, 2/2 logical inconsistencies"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact, 2/2 fabricated facts, 2/2 logical inconsistencies"
+        }
+    },
+    "Q6": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact, 2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact, 2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 2/1 fabricated facts with 1 wrong"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact, 2/2 fabricated facts"
+        }
+    },
+    "Q7": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q8": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q9": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 3/1 fabricated facts 2 wrong and this 2 was saying 300 has max dti same as 300-345"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q10": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q11": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q12": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q13": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/0 fabricated facts"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q14": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q15": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q16": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q17": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q18": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 logical inconsistency direct conflict"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q19": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 5/0 fabricated facts"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q20": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 4/4 fabricated facts, 1/1 logical inconssitency direct conflict"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q21": {
+        "Mistral": {
+            "Hallucination Detected": "no hallucinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallucinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 predicate msismatch"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallucinations"
+        }
+    },
+    "Q22": {
+        "Mistral": {
+            "Hallucination Detected": "6/6 predicate mismatch, 2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "3/3 predicate mismatch"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/0 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallucinations"
+        }
+    },
+    "Q23": {
+        "Mistral": {
+            "Hallucination Detected": "2/1 fabricated fact 1 wrong, 1/1 logical inconsistency direct conflict"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallucinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallucinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallucinations"
+        }
+    },
+    "Q24": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q25": {
+        "Mistral": {
+            "Hallucination Detected": "no hallucinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallucinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 predicate mismatch"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallucinations"
+        }
+    },
+    "Q26": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 rule violation from constraint, 2/2 fabricated fact, 1/1 logical inconsistency monoticity violation"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q27": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 rule violation from constraint, 1/1 logical inconsistency monoticity violation"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q28": {
+        "Mistral": {
+            "Hallucination Detected": "2/1 rule violation from constraint 1 wrong, 1/1 logical inconsistency monoticity violation"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 rule violation from constraint, 1/1 logical inconsistency monoticity violation"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 rule violation from constraint, 1/1 logical inconsistency monoticity violation"
+        }
+    },
+    "Q29": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 rule violation from constraint, 1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 rule violation from constraint, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q30": {
+        "Mistral": {
+            "Hallucination Detected": "1/0 rule violation from constraint 1 wrong, 1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 rule violation from constraint, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q31": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q32": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 rule violation from constraint"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 rule violation from constraint, 1/1 fabricated fact, 1/1 logical inconsistency monoticity violation"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q33": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q34": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact, 1/1 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q35": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "3/1 fabricated fact 2 wrong"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q36": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q37": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q38": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q39": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q40": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q41": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 logical inconsistency"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/2 fabricated fact, 2/2 logical inconsistency monoticity violation, 2/1 rule violation from constraint 1 wrong, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q42": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/0 fabricated fact"
+        }
+    },
+    "Q43": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q44": {
+        "Mistral": {
+            "Hallucination Detected": "2/0 rule violation from constraint"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q45": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q46": {
+        "Mistral": {
+            "Hallucination Detected": "1/0 rule violation from constraint"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q47": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q48": {
+        "Mistral": {
+            "Hallucination Detected": "3/3 fabricated fact, 2/0 logical inconsistency monoticity violation"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/0 logical inconsistency monoticity violation"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 10/0 rule violation from constraint, 1/0 logical inconsistency, 5/0 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q49": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q50": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q51": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q52": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q53": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q54": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "3/3 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q55": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q56": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "6/6 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q57": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q58": {
+        "Mistral": {
+            "Hallucination Detected": "3/6 fabricated fact, 5/0 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "4/4 fabricated fact, 1/1 rule violation from constraint"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q59": {
+        "Mistral": {
+            "Hallucination Detected": "4/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "4/4 fabricated fact, 1/1 rule violation from constraint, 1/2 logical inconsistency direct conflict"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q60": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q61": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 rule violation from constraint, 1/0 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 rule violation from constraint, 1/0 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 rule violation from constraint"
+        },
+        "GLM": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        }
+    },
+    "Q62": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q63": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q64": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 rule violations from constraint"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 rule violations from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "4/4 rule violations from constraint"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q65": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q66": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/0 rule violation from constraint, 0/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q67": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q68": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q69": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q70": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q71": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q72": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q73": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q74": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "3/3 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q75": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q76": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q77": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q78": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact, 2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q79": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "14/14 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q80": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q81": {
+        "Mistral": {
+            "Hallucination Detected": "6/4 fabricate fact, 0/2 rule violation from constraint"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact, 4/4 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/0 logical inconsistency monoticity violation, 5/6 fabricated fact, 6/3 rule violation from constraint"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/0 rule violation from constraint, 2/0 fabricated fact"
+        }
+    },
+    "Q82": {
+        "Mistral": {
+            "Hallucination Detected": "2/0 rule violation from constraint, 0/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/0 rule violation from constraint, 0/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "3/3 fabricated fact, 1/0 rule violation from constraint"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/0 rule violation from constraint, 0/2 fabricated fact"
+        }
+    },
+    "Q83": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/2 fabricated fact, 1/0 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q84": {
+        "Mistral": {
+            "Hallucination Detected": "1/2 fabricated fact, 1/0 rule violation from constraint"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 2/2 fabricated fact, 1/0 rule violation from constraint"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 rule violation from constraint"
+        }
+    },
+    "Q85": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q86": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q87": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q88": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 2/1 logical inconsistency, 1/0 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q89": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "9/2 fabricated fact, 1/1 rule violation from constraint, 1/1 logical inconsistency, 1/0 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q90": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q91": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/0 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q92": {
+        "Mistral": {
+            "Hallucination Detected": "2/0 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q93": {
+        "Mistral": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "4/4 fabricated fact"
+        }
+    },
+    "Q94": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q95": {
+        "Mistral": {
+            "Hallucination Detected": "3/3 fabricated fact, 1/0 rule violation from constraint, 2/0 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "3/3 fabricated fact, 2/0 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "3/3 fabricated fact, 2/0 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q96": {
+        "Mistral": {
+            "Hallucination Detected": "3/3 predicate mismatch"
+        },
+        "GPT": {
+            "Hallucination Detected": "3/3 predicate mismatch"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 predicate mismatch"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q97": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 predicate mismatch"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 predicate mismatch"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/0 predicate mismatch"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q98": {
+        "Mistral": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GPT": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "1/0 predicate mismatch"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    },
+    "Q99": {
+        "Mistral": {
+            "Hallucination Detected": "2/2 fabricated fact, 1/1 predicate mismatch"
+        },
+        "GPT": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        },
+        "GLM": {
+            "Hallucination Detected": "2/2 fabricated fact"
+        }
+    },
+    "Q100": {
+        "Mistral": {
+            "Hallucination Detected": "1/1 rule violation from constraint, 2/0 fabricated fact"
+        },
+        "GPT": {
+            "Hallucination Detected": "1/1 rule violation from constraint"
+        },
+        "LLAMA": {
+            "Hallucination Detected": "no hallcuinations"
+        },
+        "GLM": {
+            "Hallucination Detected": "no hallcuinations"
+        }
+    }
+}

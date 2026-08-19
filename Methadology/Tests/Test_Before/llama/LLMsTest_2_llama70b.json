@@ -1,0 +1,727 @@
+{
+    "Question1": [
+        {
+            "LLM": "llama3.1:70b",
+            "Response": "",
+            "Extrcated Triples": [
+                {
+                    "subject": "345",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "20.71%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular value."
+                },
+                {
+                    "subject": "350",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "20.19%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular value."
+                },
+                {
+                    "subject": "348",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "20.45%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular value."
+                }
+            ],
+            "Canonicalized triples": [
+                {
+                    "original": {
+                        "subject": "345",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "20.71%"
+                    },
+                    "canonical": {
+                        "subject": "345",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "20.71%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "350",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "20.19%"
+                    },
+                    "canonical": {
+                        "subject": "350",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "20.19%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "348",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "20.45%"
+                    },
+                    "canonical": {
+                        "subject": "348",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "20.45%"
+                    },
+                    "match_confidence": "HIGH"
+                }
+            ],
+            "Hallcuination detected": " 1 fabricated fact",
+            "Actual number of hallcuination": "1 fabricated fact",
+            "Ratio of detection to actual": ""
+        }
+    ],
+    "Question 2": [
+        {
+            "LLM": "llama3.3:70b",
+            "Extracted Triples": [
+                {
+                    "subject": "740",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "7.19%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular credit score."
+                },
+                {
+                    "subject": "745",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "6.97%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular credit score."
+                },
+                {
+                    "subject": "742",
+                    "predicate": "HAS_ESTIMATED_INTEREST_RATE",
+                    "object": "7.10%",
+                    "is_verifiable": true,
+                    "verification_type": "FACTUAL_CLAIM",
+                    "predicate_definition": "The estimated interest rate for a given credit score based on interpolation."
+                }
+            ],
+            "Canonicalized triples": [
+                {
+                    "original": {
+                        "subject": "740",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "7.19%"
+                    },
+                    "canonical": {
+                        "subject": "740",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "7.19%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "745",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "6.97%"
+                    },
+                    "canonical": {
+                        "subject": "745",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "6.97%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "742",
+                        "predicate": "HAS_ESTIMATED_INTEREST_RATE",
+                        "object": "7.10%"
+                    },
+                    "canonical": {
+                        "subject": "742",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "7.10% (estimated)"
+                    },
+                    "match_confidence": "MEDIUM"
+                }
+            ],
+            "Hallcuination detected": " 1 fabricated fact",
+            "Actual number of hallcuination": "1 fabricated fact ",
+            "Ratio of detection to actual": ""
+        }
+    ],
+    "Question 4": [
+        {
+            "LLM": "mistral--large-latest",
+            "Extracted Triples": [
+                {
+                    "subject": "300",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "22.94%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular value."
+                },
+                {
+                    "subject": "700",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "8.31%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular value."
+                },
+                {
+                    "subject": "531",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "13.17%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate associated with a particular value."
+                }
+            ],
+            "Canonicalized Triples": [
+                {
+                    "original": {
+                        "subject": "300",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "22.94%"
+                    },
+                    "canonical": {
+                        "subject": "300",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "22.94%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "700",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "8.31%"
+                    },
+                    "canonical": {
+                        "subject": "700",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "8.31%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "531",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "13.17%"
+                    },
+                    "canonical": {
+                        "subject": "531",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "13.17%"
+                    },
+                    "match_confidence": "HIGH"
+                }
+            ],
+            "Hallcuination detected": "1 fabricated fact ",
+            "Actual number of hallcuination": "There is correctly caught 1 fabricated fact ",
+            "Ratio of detection to actual": ""
+        }
+    ],
+    "Question 5": [
+        {
+            "LLM": "mistral--large-latest",
+            "Extracted Triples": [
+                {
+                    "subject": "633",
+                    "predicate": "HAS_ESTIMATED_INTEREST_RATE",
+                    "object": "10.25%",
+                    "is_verifiable": true,
+                    "verification_type": "FACTUAL_CLAIM",
+                    "predicate_definition": "The estimated interest rate for a given credit score."
+                },
+                {
+                    "subject": "630",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "10.17%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate for a given credit score."
+                },
+                {
+                    "subject": "635",
+                    "predicate": "HAS_INTEREST_RATE",
+                    "object": "10.33%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The interest rate for a given credit score."
+                }
+            ],
+            "Canonicalized Triples": [
+                {
+                    "original": {
+                        "subject": "633",
+                        "predicate": "HAS_ESTIMATED_INTEREST_RATE",
+                        "object": "10.25%"
+                    },
+                    "canonical": {
+                        "subject": "633",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "10.25% (estimated)"
+                    },
+                    "match_confidence": "MEDIUM"
+                },
+                {
+                    "original": {
+                        "subject": "630",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "10.17%"
+                    },
+                    "canonical": {
+                        "subject": "630",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "10.17%"
+                    },
+                    "match_confidence": "HIGH"
+                },
+                {
+                    "original": {
+                        "subject": "635",
+                        "predicate": "HAS_INTEREST_RATE",
+                        "object": "10.33%"
+                    },
+                    "canonical": {
+                        "subject": "635",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "10.33%"
+                    },
+                    "match_confidence": "HIGH"
+                }
+            ],
+            "Hallcuination detected": "1 fabricated fact  ",
+            "Actual number of hallcuination": "There is correctly caught 1 fabricated fact",
+            "Ratio of detection to actual": ""
+        },
+        {
+            "LLM": "gemini-2.5-flash",
+            "Response": "To determine the interest rate for a credit score of 633, we can use linear interpolation between the closest available scores in the dataset:*   For a credit score of 630, the interest rate is 10.17%.*   For a credit score of 635, the interest rate is 10.33%.The credit score 633 is 3/5 of the way between 630 and 635.1.  **Calculate the difference in interest rates:** 10.33% - 10.17% = 0.16%2.  **Calculate the increment for 3 points:** (0.16% / 5) * 3 = 0.032% * 3 = 0.096%3.  **Add the increment to the interest rate for 630:** 10.17% + 0.096% = 10.266%The interest rate for a credit score of 633 is approximately **10.27%**.",
+            "Extracted Triples": [
+                {
+                    "subject": "Credit Score 630",
+                    "predicate": "HAS_KNOWN_INTEREST_RATE",
+                    "object": "10.17%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score is associated with a specific, known interest rate as provided in the dataset."
+                },
+                {
+                    "subject": "Credit Score 635",
+                    "predicate": "HAS_KNOWN_INTEREST_RATE",
+                    "object": "10.33%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score is associated with a specific, known interest rate as provided in the dataset."
+                },
+                {
+                    "subject": "Credit Score 633",
+                    "predicate": "IS_INTERPOLATED_BETWEEN",
+                    "object": "Credit Score 630 and Credit Score 635",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_RELATION",
+                    "predicate_definition": "The subject credit score's interest rate is determined by linear interpolation using the interest rates of the two object credit scores."
+                },
+                {
+                    "subject": "Credit Score 633",
+                    "predicate": "HAS_ESTIMATED_INTEREST_RATE",
+                    "object": "10.27%",
+                    "is_verifiable": true,
+                    "verification_type": "FACTUAL_CLAIM",
+                    "predicate_definition": "The subject credit score has an interest rate that has been calculated or approximated using a specific method, such as linear interpolation."
+                },
+                {
+                    "subject": "Credit Score 633",
+                    "predicate": "IS_CLOSER_TO",
+                    "object": "Credit Score 630 than Credit Score 635",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_RELATION",
+                    "predicate_definition": "The subject credit score is numerically closer to the first object credit score than to the second object credit score."
+                }
+            ],
+            "Canonicalized Triples": [
+                {
+                    "original": {
+                        "subject": "Credit Score 630",
+                        "predicate": "HAS_KNOWN_INTEREST_RATE",
+                        "object": "10.17%",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score is associated with a specific, known interest rate as provided in the dataset."
+                    },
+                    "canonical": {
+                        "subject": "630",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "10.17% (known)"
+                    },
+                    "match_confidence": "MEDIUM",
+                    "reasoning": "Subject 'Credit Score 630' was normalized to '630' as an identifier; predicate 'HAS_KNOWN_INTEREST_RATE' was matched to 'INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE' after stripping the 'KNOWN' qualifier; object '10.17%' was normalized as an identifier with the 'known' qualifier appended."
+                },
+                {
+                    "original": {
+                        "subject": "Credit Score 635",
+                        "predicate": "HAS_KNOWN_INTEREST_RATE",
+                        "object": "10.33%",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score is associated with a specific, known interest rate as provided in the dataset."
+                    },
+                    "canonical": {
+                        "subject": "635",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "10.33% (known)"
+                    },
+                    "match_confidence": "MEDIUM",
+                    "reasoning": "Subject 'Credit Score 635' was normalized to '635' as an identifier; predicate 'HAS_KNOWN_INTEREST_RATE' was matched to 'INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE' after stripping the 'KNOWN' qualifier; object '10.33%' was normalized as an identifier with the 'known' qualifier appended."
+                },
+                {
+                    "original": {
+                        "subject": "Credit Score 633",
+                        "predicate": "IS_INTERPOLATED_BETWEEN",
+                        "object": "Credit Score 630 and Credit Score 635",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_RELATION",
+                        "predicate_definition": "The subject credit score's interest rate is determined by linear interpolation using the interest rates of the two object credit scores."
+                    },
+                    "canonical": {
+                        "subject": "633",
+                        "predicate": "IS_INTERPOLATED_BETWEEN",
+                        "object": "630 and 635"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject 'Credit Score 633' was normalized to '633' as an identifier; predicate 'IS_INTERPOLATED_BETWEEN' was not matched to any DB relationship type as it describes a computational operation not present in the schema; object 'Credit Score 630 and Credit Score 635' was normalized to '630 and 635' by stripping label prefixes."
+                },
+                {
+                    "original": {
+                        "subject": "Credit Score 633",
+                        "predicate": "HAS_ESTIMATED_INTEREST_RATE",
+                        "object": "10.27%",
+                        "is_verifiable": true,
+                        "verification_type": "FACTUAL_CLAIM",
+                        "predicate_definition": "The subject credit score has an interest rate that has been calculated or approximated using a specific method, such as linear interpolation."
+                    },
+                    "canonical": {
+                        "subject": "633",
+                        "predicate": "INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE",
+                        "object": "10.27% (estimated)"
+                    },
+                    "match_confidence": "MEDIUM",
+                    "reasoning": "Subject 'Credit Score 633' was normalized to '633' as an identifier; predicate 'HAS_ESTIMATED_INTEREST_RATE' was matched to 'INTEREST_RATE_CHARGED_AS_ANNUAL_BORROWING_COST_PERCENTAGE' after stripping the 'ESTIMATED' qualifier; object '10.27%' was normalized as an identifier with the 'estimated' qualifier appended."
+                },
+                {
+                    "original": {
+                        "subject": "Credit Score 633",
+                        "predicate": "IS_CLOSER_TO",
+                        "object": "Credit Score 630 than Credit Score 635",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_RELATION",
+                        "predicate_definition": "The subject credit score is numerically closer to the first object credit score than to the second object credit score."
+                    },
+                    "canonical": {
+                        "subject": "633",
+                        "predicate": "IS_CLOSER_TO",
+                        "object": "630 than 635"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject 'Credit Score 633' was normalized to '633' as an identifier; predicate 'IS_CLOSER_TO' was not matched to any DB relationship type as it describes a comparative relationship not present in the schema; object 'Credit Score 630 than Credit Score 635' was normalized to '630 than 635' by stripping label prefixes."
+                }
+            ],
+            "Hallcuination detected": "1 fabricated fact , 2 unverifiable triples ",
+            "Actual number of hallcuination": "There is correctly caught 1 fabricated fact ",
+            "Ratio of detection to actual": ""
+        }
+    ],
+    "Question 6": [
+        {
+            "LLM": "mistral--large-latest",
+            "Response": "The dataset provided does not include a specific entry for a **433 credit score**, as it only lists credit scores in increments of **5 points** (e.g., 430, 435, 440, etc.).However, we can **estimate** the down payment for a **433 credit score** by interpolating between the closest available data points:- **430 credit score**: Down payment = **19.4%** (from the 400 credit score entry, as no down payment is listed for 430 explicitly).- **435 credit score**: No down payment is listed, but the next available down payment is at **500 credit score (15.4%)**.Since **433 is closer to 430**, and assuming a linear trend in the deep subprime tier, the down payment would likely be **very close to 19.4%**, possibly slightly lower (e.g., ~19.2–19.3%).### Key Observations:1. **Deep Subprime Tier (300–579)**: Down payments are high (e.g., 22.1% at 300, 19.4% at 400, 15.4% at 500).2. **No abrupt changes** are listed between 400 and 500, so the down payment likely decreases gradually.### Best Estimate:**~19.3% down payment** for a **433 credit score**.For precise data, you would need the exact parameters from a lender or credit bureau. Would you like help analyzing other aspects of the dataset?",
+            "Extracted Triples": [
+                {
+                    "subject": "433 Credit Score",
+                    "predicate": "HAS_ESTIMATED_DOWN_PAYMENT",
+                    "object": "19.3%",
+                    "is_verifiable": true,
+                    "verification_type": "FACTUAL_CLAIM",
+                    "predicate_definition": "The subject credit score is associated with the estimated down payment percentage specified by the object entity, derived through interpolation or approximation."
+                },
+                {
+                    "subject": "430 Credit Score",
+                    "predicate": "HAS_DOWN_PAYMENT",
+                    "object": "19.4%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                },
+                {
+                    "subject": "435 Credit Score",
+                    "predicate": "HAS_NO_LISTED_DOWN_PAYMENT",
+                    "object": "True",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score lacks an explicitly listed down payment value in the dataset, as indicated by the boolean object entity."
+                },
+                {
+                    "subject": "500 Credit Score",
+                    "predicate": "HAS_DOWN_PAYMENT",
+                    "object": "15.4%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                },
+                {
+                    "subject": "400 Credit Score",
+                    "predicate": "HAS_DOWN_PAYMENT",
+                    "object": "19.4%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                },
+                {
+                    "subject": "300 Credit Score",
+                    "predicate": "HAS_DOWN_PAYMENT",
+                    "object": "22.1%",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                },
+                {
+                    "subject": "433 Credit Score",
+                    "predicate": "IS_INTERPOLATED_BETWEEN",
+                    "object": "430 Credit Score and 435 Credit Score",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_RELATION",
+                    "predicate_definition": "The subject credit score's attributes (e.g., down payment) are estimated by interpolating between the two credit scores specified by the object entity."
+                },
+                {
+                    "subject": "433 Credit Score",
+                    "predicate": "IS_CLOSER_TO",
+                    "object": "430 Credit Score",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_RELATION",
+                    "predicate_definition": "The subject credit score is numerically nearer to the credit score specified by the object entity compared to other reference points."
+                },
+                {
+                    "subject": "Deep Subprime Tier",
+                    "predicate": "HAS_CREDIT_SCORE_RANGE",
+                    "object": "300\u2013579",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_ATTRIBUTE",
+                    "predicate_definition": "The subject credit tier encompasses the range of credit scores specified by the object entity."
+                },
+                {
+                    "subject": "433 Credit Score",
+                    "predicate": "FALLS_WITHIN_CREDIT_SCORE_RANGE",
+                    "object": "Deep Subprime Tier",
+                    "is_verifiable": true,
+                    "verification_type": "ENTITY_RELATION",
+                    "predicate_definition": "The subject credit score is contained within the credit score range defined by the object entity."
+                },
+                {
+                    "subject": "433 Credit Score",
+                    "predicate": "HAS_ESTIMATED_DOWN_PAYMENT_RANGE",
+                    "object": "19.2%\u201319.3%",
+                    "is_verifiable": true,
+                    "verification_type": "FACTUAL_CLAIM",
+                    "predicate_definition": "The subject credit score is associated with a range of estimated down payment percentages specified by the object entity."
+                }
+            ],
+            "Canonicalized Triples": [
+                {
+                    "original": {
+                        "subject": "433 Credit Score",
+                        "predicate": "HAS_ESTIMATED_DOWN_PAYMENT",
+                        "object": "19.3%",
+                        "is_verifiable": true,
+                        "verification_type": "FACTUAL_CLAIM",
+                        "predicate_definition": "The subject credit score is associated with the estimated down payment percentage specified by the object entity, derived through interpolation or approximation."
+                    },
+                    "canonical": {
+                        "subject": "433",
+                        "predicate": "DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION",
+                        "object": "19.3% (estimated)"
+                    },
+                    "match_confidence": "MEDIUM",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate matched to 'DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION' after stripping 'ESTIMATED' qualifier, with qualifier preserved in object annotation. Object normalized as identifier (numeric value with percentage sign)."
+                },
+                {
+                    "original": {
+                        "subject": "430 Credit Score",
+                        "predicate": "HAS_DOWN_PAYMENT",
+                        "object": "19.4%",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                    },
+                    "canonical": {
+                        "subject": "430",
+                        "predicate": "DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION",
+                        "object": "19.4%"
+                    },
+                    "match_confidence": "HIGH",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate matched exactly to 'DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION'. Object normalized as identifier (numeric value with percentage sign)."
+                },
+                {
+                    "original": {
+                        "subject": "435 Credit Score",
+                        "predicate": "HAS_NO_LISTED_DOWN_PAYMENT",
+                        "object": "True",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score lacks an explicitly listed down payment value in the dataset, as indicated by the boolean object entity."
+                    },
+                    "canonical": {
+                        "subject": "435",
+                        "predicate": "HAS_NO_LISTED_DOWN_PAYMENT",
+                        "object": "True"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate could not be matched to any DB relationship type (no equivalent for negation). Object preserved as boolean value. Confidence LOW due to predicate mismatch."
+                },
+                {
+                    "original": {
+                        "subject": "500 Credit Score",
+                        "predicate": "HAS_DOWN_PAYMENT",
+                        "object": "15.4%",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                    },
+                    "canonical": {
+                        "subject": "500",
+                        "predicate": "DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION",
+                        "object": "15.4%"
+                    },
+                    "match_confidence": "HIGH",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate matched exactly to 'DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION'. Object normalized as identifier (numeric value with percentage sign)."
+                },
+                {
+                    "original": {
+                        "subject": "400 Credit Score",
+                        "predicate": "HAS_DOWN_PAYMENT",
+                        "object": "19.4%",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                    },
+                    "canonical": {
+                        "subject": "400",
+                        "predicate": "DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION",
+                        "object": "19.4%"
+                    },
+                    "match_confidence": "HIGH",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate matched exactly to 'DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION'. Object normalized as identifier (numeric value with percentage sign)."
+                },
+                {
+                    "original": {
+                        "subject": "300 Credit Score",
+                        "predicate": "HAS_DOWN_PAYMENT",
+                        "object": "22.1%",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit score is explicitly linked to the down payment percentage specified by the object entity as per the dataset."
+                    },
+                    "canonical": {
+                        "subject": "300",
+                        "predicate": "DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION",
+                        "object": "22.1%"
+                    },
+                    "match_confidence": "HIGH",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate matched exactly to 'DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION'. Object normalized as identifier (numeric value with percentage sign)."
+                },
+                {
+                    "original": {
+                        "subject": "433 Credit Score",
+                        "predicate": "IS_INTERPOLATED_BETWEEN",
+                        "object": "430 Credit Score and 435 Credit Score",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_RELATION",
+                        "predicate_definition": "The subject credit score's attributes (e.g., down payment) are estimated by interpolating between the two credit scores specified by the object entity."
+                    },
+                    "canonical": {
+                        "subject": "433",
+                        "predicate": "IS_INTERPOLATED_BETWEEN",
+                        "object": "430 and 435"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject and object normalized as identifiers (numeric values, stripped 'Credit Score' labels). Predicate describes a computational operation not present in DB relationship types. Confidence LOW due to predicate mismatch."
+                },
+                {
+                    "original": {
+                        "subject": "433 Credit Score",
+                        "predicate": "IS_CLOSER_TO",
+                        "object": "430 Credit Score",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_RELATION",
+                        "predicate_definition": "The subject credit score is numerically nearer to the credit score specified by the object entity compared to other reference points."
+                    },
+                    "canonical": {
+                        "subject": "433",
+                        "predicate": "IS_CLOSER_TO",
+                        "object": "430"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject and object normalized as identifiers (numeric values, stripped 'Credit Score' labels). Predicate describes a comparative relation not present in DB relationship types. Confidence LOW due to predicate mismatch."
+                },
+                {
+                    "original": {
+                        "subject": "Deep Subprime Tier",
+                        "predicate": "HAS_CREDIT_SCORE_RANGE",
+                        "object": "300\u2013579",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_ATTRIBUTE",
+                        "predicate_definition": "The subject credit tier encompasses the range of credit scores specified by the object entity."
+                    },
+                    "canonical": {
+                        "subject": "Deep Subprime Tier",
+                        "predicate": "HAS_CREDIT_SCORE_RANGE",
+                        "object": "300-579"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject normalized as descriptive (no DB match, title-cased). Predicate not found in DB relationship types. Object normalized as identifier (range format preserved). Confidence LOW due to predicate mismatch."
+                },
+                {
+                    "original": {
+                        "subject": "433 Credit Score",
+                        "predicate": "FALLS_WITHIN_CREDIT_SCORE_RANGE",
+                        "object": "Deep Subprime Tier",
+                        "is_verifiable": true,
+                        "verification_type": "ENTITY_RELATION",
+                        "predicate_definition": "The subject credit score is contained within the credit score range defined by the object entity."
+                    },
+                    "canonical": {
+                        "subject": "433",
+                        "predicate": "FALLS_WITHIN_CREDIT_SCORE_RANGE",
+                        "object": "Deep Subprime Tier"
+                    },
+                    "match_confidence": "LOW",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate not found in DB relationship types. Object preserved as descriptive. Confidence LOW due to predicate mismatch."
+                },
+                {
+                    "original": {
+                        "subject": "433 Credit Score",
+                        "predicate": "HAS_ESTIMATED_DOWN_PAYMENT_RANGE",
+                        "object": "19.2%\u201319.3%",
+                        "is_verifiable": true,
+                        "verification_type": "FACTUAL_CLAIM",
+                        "predicate_definition": "The subject credit score is associated with a range of estimated down payment percentages specified by the object entity."
+                    },
+                    "canonical": {
+                        "subject": "433",
+                        "predicate": "DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION",
+                        "object": "19.2%-19.3% (estimated)"
+                    },
+                    "match_confidence": "MEDIUM",
+                    "reasoning": "Subject normalized as identifier (numeric value, stripped 'Credit Score' label). Predicate matched to 'DOWN_PAYMENT_REQUIRED_AS_UPFRONT_BORROWER_CASH_CONTRIBUTION' after stripping 'ESTIMATED' and 'RANGE' qualifiers, with qualifier preserved in object annotation. Object normalized as identifier (range format preserved)."
+                }
+            ],
+            "Hallcuination detected": "2 fabricated fact , 5 unverifiable triples and 1 predicate mismatch",
+            "Actual number of hallcuination": "There is correctly caught 2 fabricated facts and 1 predicate mismatch",
+            "Ratio of detection to actual": ""
+        }
+    ]
+}

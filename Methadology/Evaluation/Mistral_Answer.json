@@ -1,0 +1,602 @@
+{
+    "Q1": {
+        "id": "Q001",
+        "category": "interest_rate_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q2": {
+        "id": "Q002",
+        "category": "interest_rate_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q3": {
+        "id": "Q003",
+        "category": "interest_rate_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q4": {
+        "id": "Q004",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "5",
+        "Hallucination generated": "1 fabricated fact, 1 fabricated fact"
+    },
+    "Q5": {
+        "id": "Q004",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "8",
+        "Hallucination generated": "1 fabricated fact, 2 fabricated fact, 4 logical inconsistency"
+    },
+    "Q6": {
+        "id": "Q006",
+        "category": "risk_tier",
+        "number of triples generated": "7",
+        "Hallucination generated": "1 fabricated fact, 2 fabricated facts"
+    },
+    "Q7": {
+        "id": "Q007",
+        "category": "risk_tier",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q8": {
+        "id": "Q008",
+        "category": "risk_tier",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q9": {
+        "id": "Q009",
+        "category": "maxDTI_Interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q10": {
+        "id": "Q010",
+        "category": "maxDTI_Interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q11": {
+        "id": "Q011",
+        "category": "maxDTI_Interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q12": {
+        "id": "Q012",
+        "category": "loan_term",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q13": {
+        "id": "Q013",
+        "category": "loan_term",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q14": {
+        "id": "Q014",
+        "category": "loan_term",
+        "number of triples generated": "4",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q15": {
+        "id": "Q015",
+        "category": "lender_pool",
+        "number of triples generated": "1",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q16": {
+        "id": "Q016",
+        "category": "lender_pool",
+        "number of triples generated": "1",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q17": {
+        "id": "Q017",
+        "category": "lender_pool",
+        "number of triples generated": "1",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q18": {
+        "id": "Q018",
+        "category": "default_probability_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q19": {
+        "id": "Q019",
+        "category": "default_probability_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q20": {
+        "id": "Q020",
+        "category": "default_probability_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q21": {
+        "id": "Q021",
+        "category": "collateral_type",
+        "number of triples generated": "1",
+        "Hallucination generated": "0"
+    },
+    "Q22": {
+        "id": "Q022",
+        "category": "collateral_type",
+        "number of triples generated": "16",
+        "Hallucination generated": "6 predicate mismatches 2 fabricated fact"
+    },
+    "Q23": {
+        "id": "Q023",
+        "category": "collateral_type",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact and 1 logical inconssitency direct conflict"
+    },
+    "Q24": {
+        "id": "Q024",
+        "category": "collateral_type",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q25": {
+        "id": "Q025",
+        "category": "collateral_type",
+        "number of triples generated": "2",
+        "Hallucination generated": "0"
+    },
+    "Q26": {
+        "id": "Q026",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "2 fabricated fact, 1 fabricated fact"
+    },
+    "Q27": {
+        "id": "Q027",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact, 1 logical inconsistency monoticity violation"
+    },
+    "Q28": {
+        "id": "Q028",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact, 1 logical inconsistency monoticity violation"
+    },
+    "Q29": {
+        "id": "Q029",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "4",
+        "Hallucination generated": "1 rule violation from constraint, 1 fabricated fact"
+    },
+    "Q30": {
+        "id": "Q030",
+        "category": "approval_odds_interpolation",
+        "number of triples generated": "4",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q31": {
+        "id": "Q031",
+        "category": "down_payment",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q32": {
+        "id": "Q032",
+        "category": "down_payment",
+        "number of triples generated": "4",
+        "Hallucination generated": "1 fabricated fact, 1 rule violation from constraint"
+    },
+    "Q33": {
+        "id": "Q033",
+        "category": "down_payment",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q34": {
+        "id": "Q034",
+        "category": "credit_limit_multiplier",
+        "number of triples generated": "4",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q35": {
+        "id": "Q035",
+        "category": "credit_limit_multiplier",
+        "number of triples generated": "4",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q36": {
+        "id": "Q036",
+        "category": "credit_limit_multiplier",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q37": {
+        "id": "Q037",
+        "category": "interest_rate",
+        "number of triples generated": "3",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q38": {
+        "id": "Q038",
+        "category": "approval_odds",
+        "number of triples generated": "3",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q39": {
+        "id": "Q039",
+        "category": "lender_pool",
+        "number of triples generated": "3",
+        "Hallucination generated": "1 fabricated fact"
+    },
+    "Q40": {
+        "id": "Q040",
+        "category": "approval_odds",
+        "number of triples generated": "3",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q41": {
+        "id": "Q041",
+        "category": "interest_rate+risk_tier",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q42": {
+        "id": "Q042",
+        "category": "interest_rate+risk_tier",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q43": {
+        "id": "Q043",
+        "category": "interest_rate+approval_odds",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q44": {
+        "id": "Q044",
+        "category": "interest_rate+approval_odds",
+        "number of triples generated": "6",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q45": {
+        "id": "Q045",
+        "category": "interest_rate+default_probability",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q46": {
+        "id": "Q046",
+        "category": "interest_rate+default_probability",
+        "number of triples generated": "6",
+        "Hallucination generated": "no hallucinations"
+    },
+    "Q47": {
+        "id": "Q047",
+        "category": "interest_rate+loan_term",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q48": {
+        "id": "Q048",
+        "category": "interest_rate+loan_term",
+        "number of triples generated": "6",
+        "Hallucination generated": "3 fabricated fact"
+    },
+    "Q49": {
+        "id": "Q049",
+        "category": "interest_rate+lender_pool",
+        "number of triples generated": "4",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q50": {
+        "id": "Q050",
+        "category": "interest_rate+lender_pool",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q51": {
+        "id": "Q051",
+        "category": "approval_odds+default_probability",
+        "number of triples generated": "8",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q52": {
+        "id": "Q052",
+        "category": "approval_odds+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q53": {
+        "id": "Q053",
+        "category": "approval_odds+loan_term",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q54": {
+        "id": "Q054",
+        "category": "approval_odds+loan_term",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q55": {
+        "id": "Q055",
+        "category": "approval_odds+lender_pool",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q56": {
+        "id": "Q056",
+        "category": "approval_odds+lender_pool",
+        "number of triples generated": "6",
+        "Hallucination generated": "4 fabricated fact"
+    },
+    "Q57": {
+        "id": "Q057",
+        "category": "risk_tier+loan_term",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q58": {
+        "id": "Q058",
+        "category": "risk_tier+loan_term",
+        "number of triples generated": "13",
+        "Hallucination generated": "6 fabricated fact"
+    },
+    "Q59": {
+        "id": "Q059",
+        "category": "risk_tier+lender_pool",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q60": {
+        "id": "Q060",
+        "category": "risk_tier+lender_pool",
+        "number of triples generated": "4",
+        "Hallucination generated": "4 fabricated fact"
+    },
+    "Q61": {
+        "id": "Q061",
+        "category": "risk_tier+approval_odds",
+        "number of triples generated": "5",
+        "Hallucination generated": "2 fabricated fact, 1 rule violation from constraint"
+    },
+    "Q62": {
+        "id": "Q062",
+        "category": "risk_tier+approval_odds",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q63": {
+        "id": "Q063",
+        "category": "risk_tier+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q64": {
+        "id": "Q064",
+        "category": "risk_tier+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "4 rule violations from constraint"
+    },
+    "Q65": {
+        "id": "Q065",
+        "category": "loan_term+lender_pool",
+        "number of triples generated": "6",
+        "Hallucination generated": "no hallucinations"
+    },
+    "Q66": {
+        "id": "Q066",
+        "category": "loan_term+lender_pool",
+        "number of triples generated": "3",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q67": {
+        "id": "Q067",
+        "category": "loan_term+default_probabillity",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q68": {
+        "id": "Q068",
+        "category": "loan_term+default_probabillity",
+        "number of triples generated": "8",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q69": {
+        "id": "Q069",
+        "category": "lender_pool+default_probability",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q70": {
+        "id": "Q070",
+        "category": "lender_pool+default_probability",
+        "number of triples generated": "2",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q71": {
+        "id": "Q071",
+        "category": "down_payment+approval_odds",
+        "number of triples generated": "4",
+        "Hallucination generated": "4 fabricated fact"
+    },
+    "Q72": {
+        "id": "Q072",
+        "category": "down_payment+approval_odds",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q73": {
+        "id": "Q073",
+        "category": "down_payment+loan_term",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q74": {
+        "id": "Q074",
+        "category": "down_payment+loan_term",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q75": {
+        "id": "Q075",
+        "category": "down_payment+lender_pool",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q76": {
+        "id": "Q076",
+        "category": "down_payment+lender_pool",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q77": {
+        "id": "Q077",
+        "category": "down_payment+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q78": {
+        "id": "Q078",
+        "category": "down_payment+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q79": {
+        "id": "Q079",
+        "category": "maxDTI+risk_tier",
+        "number of triples generated": "4",
+        "Hallucination generated": "4 fabricated fact"
+    },
+    "Q80": {
+        "id": "Q080",
+        "category": "maxDTI+risk_tier",
+        "number of triples generated": "8",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q81": {
+        "id": "Q081",
+        "category": "maxDTI+lender_pool",
+        "number of triples generated": "12",
+        "Hallucination generated": "4 fabricated fact, 2 rule violation from constraint"
+    },
+    "Q82": {
+        "id": "Q082",
+        "category": "maxDTI+lender_pool",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q83": {
+        "id": "Q083",
+        "category": "maxDTI+loan_term",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q84": {
+        "id": "Q084",
+        "category": "maxDTI+loan_term",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q85": {
+        "id": "Q085",
+        "category": "maxDTI+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q86": {
+        "id": "Q086",
+        "category": "maxDTI+default_probability",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q87": {
+        "id": "Q087",
+        "category": "credit_limit_multiplier+risk_tier",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q88": {
+        "id": "Q088",
+        "category": "credit_limit_multiplier+risk_tier",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q89": {
+        "id": "Q089",
+        "category": "credit_limit_multiplier+loan_term",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q90": {
+        "id": "Q090",
+        "category": "credit_limit_multiplier+loan_term",
+        "number of triples generated": "4",
+        "Hallucination generated": "4 fabricated fact"
+    },
+    "Q91": {
+        "id": "Q091",
+        "category": "credit_limit_multiplier+lender_pool",
+        "number of triples generated": "2",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q92": {
+        "id": "Q092",
+        "category": "credit_limit_multiplier+lender_pool",
+        "number of triples generated": "4",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q93": {
+        "id": "Q093",
+        "category": "credit_limit_multiplier+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "4 fabricated fact"
+    },
+    "Q94": {
+        "id": "Q094",
+        "category": "credit_limit_multiplier+default_probability",
+        "number of triples generated": "4",
+        "Hallucination generated": "2 fabricated fact"
+    },
+    "Q95": {
+        "id": "Q095",
+        "category": "collateral_type+interest_rate",
+        "number of triples generated": "16",
+        "Hallucination generated": "3 fabricated fact"
+    },
+    "Q96": {
+        "id": "Q096",
+        "category": "collateral_type+approval_odds",
+        "number of triples generated": "8",
+        "Hallucination generated": "3 predicate mismatch"
+    },
+    "Q97": {
+        "id": "Q097",
+        "category": "collateral_type+risk_tier",
+        "number of triples generated": "6",
+        "Hallucination generated": "2 predicate mismatch"
+    },
+    "Q98": {
+        "id": "Q098",
+        "category": "collateral_type+risk_tier",
+        "number of triples generated": "6",
+        "Hallucination generated": "no hallucination"
+    },
+    "Q99": {
+        "id": "Q099",
+        "category": "collateral_type+default_probability",
+        "number of triples generated": "3",
+        "Hallucination generated": "2 fabricated fact, 1 predicate mismatch"
+    },
+    "Q100": {
+        "id": "Q100",
+        "category": "collateral_type+down_payment",
+        "number of triples generated": "6",
+        "Hallucination generated": "1 rule violation from constraint"
+    }
+}

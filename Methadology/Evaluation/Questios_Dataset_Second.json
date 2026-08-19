@@ -1,0 +1,684 @@
+{
+    "Q41": {
+        "id": "Q041",
+        "category": "interest_rate+risk_tier",
+        "question": "A customer with credit score 323 wants to know their interest rate and risk tier. They also want to know what their interest rate and risk tier would be if their credit score improved to 325.",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 323",
+            "Step 2: Find the risk tier for credit score 323",
+            "Step 3: Find the interest rate for credit score 325",
+            "Step 4: Find the risk tier for credit score 325"
+        ]
+    },
+    "Q42": {
+        "id": "Q042",
+        "category": "interest_rate+risk_tier",
+        "question": "What is the interest rate and risk tier for credit score 579? What about for credit score 580? A friend claims both scores share the same risk tier.",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 579",
+            "Step 2: Find the risk tier for credit score 579",
+            "Step 3: Find the interest rate for credit score 580",
+            "Step 4: Find the risk tier for credit score 580"
+        ]
+    },
+    "Q43": {
+        "id": "Q043",
+        "category": "interest_rate+approval_odds",
+        "question": "A borrower with credit score 667 wants to know their interest rate and approval odds. What are the values for score 667?",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 667",
+            "Step 2: Find the approval odds for credit score 667"
+        ]
+    },
+    "Q44": {
+        "id": "Q044",
+        "category": "interest_rate+approval_odds",
+        "question": "I need to compare the interest rate and approval odds for scores 350, 580, and 800 to show how they change across the credit spectrum. so give me these values",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 350",
+            "Step 2: Find the approval odds for credit score 350",
+            "Step 3: Find the interest rate for credit score 580",
+            "Step 4: Find the approval odds for credit score 580",
+            "Step 5: Find the interest rate for credit score 800",
+            "Step 6: Find the approval odds for credit score 800"
+        ]
+    },
+    "Q45": {
+        "id": "Q045",
+        "category": "interest_rate+default_probability",
+        "question": "A loan officer needs to evaluate a borrower with credit score 748. What is the interest rate and default probability for that score?",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 748",
+            "Step 2: Find the default probability for credit score 748"
+        ]
+    },
+    "Q46": {
+        "id": "Q046",
+        "category": "interest_rate+default_probability",
+        "question": "Show the interest rate and default probability for credit scores 400, 600, and 800 to illustrate how they evolve across the credit spectrum.",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 400",
+            "Step 2: Find the default probability for credit score 400",
+            "Step 3: Find the interest rate for credit score 600",
+            "Step 4: Find the default probability for credit score 600",
+            "Step 5: Find the interest rate for credit score 800",
+            "Step 6: Find the default probability for credit score 800"
+        ]
+    },
+    "Q47": {
+        "id": "Q047",
+        "category": "interest_rate+loan_term",
+        "question": "A borrower with credit score 598 wants to know their interest rate and what loan term they qualify for. What are the values for score 598?",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 598",
+            "Step 2: Find the loan term for credit score 598"
+        ]
+    },
+    "Q48": {
+        "id": "Q048",
+        "category": "interest_rate+loan_term",
+        "question": "A borrower wants to compare loan terms and interest rates at the two ends of the near-prime range: 620 and 659. What are the values at each score?",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 620",
+            "Step 2: Find the loan term for credit score 620",
+            "Step 3: Find the interest rate for credit score 659",
+            "Step 4: Find the loan term for credit score 659"
+        ]
+    },
+    "Q49": {
+        "id": "Q049",
+        "category": "interest_rate+lender_pool",
+        "question": "Which lender pool and what interest rate apply to a borrower at score 300? Compare those to the values at score 850.",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 300",
+            "Step 2: Find the lender pool for credit score 300",
+            "Step 3: Find the interest rate for credit score 850",
+            "Step 4: Find the lender pool for credit score 850"
+        ]
+    },
+    "Q50": {
+        "id": "Q050",
+        "category": "interest_rate+lender_pool",
+        "question": "For credit score 427, what is the interest rate and what lender pool is available to this borrower?",
+        "reasoning_steps": [
+            "Step 1: Find the interest rate for credit score 427",
+            "Step 2: Find the lender pool for credit score 427"
+        ]
+    },
+    "Q51": {
+        "id": "Q051",
+        "category": "approval_odds+default_probability",
+        "question": "A researcher studying credit risk wants to know the approval odds and default probability for scores 300, 500, 700, and 850.",
+        "reasoning_steps": [
+            "Step 1: Find the approval odds for credit score 300",
+            "Step 2: Find the default probability for credit score 300",
+            "Step 3: Find the approval odds for credit score 500",
+            "Step 4: Find the default probability for credit score 500",
+            "Step 5: Find the approval odds for credit score 700",
+            "Step 6: Find the default probability for credit score 700",
+            "Step 7: Find the approval odds for credit score 850",
+            "Step 8: Find the default probability for credit score 850"
+        ]
+    },
+    "Q52": {
+        "id": "Q052",
+        "category": "approval_odds+default_probability",
+        "question": "A customer at score 619 is one point away from crossing into near prime. What are their approval odds and default probability at 619 versus 620?",
+        "reasoning_steps": [
+            "Step 1: Find the approval odds for credit score 619",
+            "Step 2: Find the default probability for credit score 619",
+            "Step 3: Find the approval odds for credit score 620",
+            "Step 4: Find the default probability for credit score 620"
+        ]
+    },
+    "Q53": {
+        "id": "Q053",
+        "category": "approval_odds+loan_term",
+        "question": "What loan term and approval odds apply at score 400? What about at score 399? An employee said that the loan term of scores 399 and 397 secretly have 11 months of loan term and approval odds of 102.",
+        "reasoning_steps": [
+            "Step 1: Find the approval odds for credit score 400",
+            "Step 2: Find the loan term for credit score 400",
+            "Step 3: Find the approval odds for credit score 399",
+            "Step 4: Find the loan term for credit score 399"
+        ]
+    },
+    "Q54": {
+        "id": "Q054",
+        "category": "approval_odds+loan_term",
+        "question": "A borrower at score 829 wants to know their approval odds and the loan term they qualify for.He asked someone who know credential info at the bank and he said to him for approval odds have 2 values and both above 100 and loan term is normally 10 months?",
+        "reasoning_steps": [
+            "Step 1: Find the approval odds for credit score 829",
+            "Step 2: Find the second approval odds for credit score 829",
+            "Step 3: Find the loan term for credit score 829"
+        ]
+    },
+    "Q55": {
+        "id": "Q055",
+        "category": "approval_odds+lender_pool",
+        "question": "A borrower at score 694 wants to know their approval odds and which lenders would likely work with them.Note that approval odds for prime borrowers are always above 120% due to government guarantees.",
+        "reasoning_steps": [
+            "Step 1: Find the approval odds for credit score 694",
+            "Step 2: Find the lender pool for credit score 694"
+        ]
+    },
+    "Q56": {
+        "id": "Q056",
+        "category": "approval_odds+lender_pool",
+        "question": "A borrower at 739 wants to know their approval odds and lender pool and he need to knwo what would happen if he have credit score 740 and 841, also the bank said to him 739 has larger approval odds then 740 due to governament rules.",
+        "reasoning_steps": [
+            "Step 1: Find the approval odds for credit score 739",
+            "Step 2: Find the lender pool for credit score 739",
+            "Step 3: Find the approval odds for credit score 740",
+            "Step 4: Find the lender pool for credit score 740",
+            "Step 5: Find the approval odds for credit score 841",
+            "Step 6: Find the lender pool for credit score 841"
+        ]
+    },
+    "Q57": {
+        "id": "Q057",
+        "category": "risk_tier+loan_term",
+        "question": "list all risk tiers and loan terms for a borrower with credit score 499? Also what is the risk tier and loan term at 500?",
+        "reasoning_steps": [
+            "Step 1: list all risk tier for credit score 499",
+            "Step 2: list all loan term for credit score 499",
+            "Step 3: Find the risk tier for credit score 500",
+            "Step 4: Find the loan term for credit score 500"
+        ]
+    },
+    "Q58": {
+        "id": "Q058",
+        "category": "risk_tier+loan_term",
+        "question": "A portfolio manager wants the risk tier and loan term for scores 580, 621, 660, and 749, 890. Provide all four pairs.",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for credit score 580",
+            "Step 2: Find the loan term for credit score 580",
+            "Step 3: Find the risk tier for credit score 621",
+            "Step 4: Find the loan term for credit score 621",
+            "Step 5: Find the risk tier for credit score 660",
+            "Step 6: Find the loan term for credit score 660",
+            "Step 7: Find the risk tier for credit score 749",
+            "Step 8: Find the loan term for credit score 749",
+            "Step 9: Find the risk tier for credit score 890",
+            "Step 10: Find the loan term for credit score 890"
+        ]
+    },
+    "Q59": {
+        "id": "Q059",
+        "category": "risk_tier+lender_pool",
+        "question": "A credit counselor wants to show a borrower the impact of improving from score 619 to 620 in terms of risk tier and lender pool. What changes?",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for credit score 619",
+            "Step 2: Find the lender pool for credit score 619",
+            "Step 3: Find the risk tier for credit score 620",
+            "Step 4: Find the lender pool for credit score 620"
+        ]
+    },
+    "Q60": {
+        "id": "Q060",
+        "category": "risk_tier+lender_pool",
+        "question": "A credit counselor has two clients: one at score 612 and one at score 728. For each, what is their risk tier and which lender pool applies?",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for credit score 612",
+            "Step 2: Find the lender pool for credit score 612",
+            "Step 3: Find the risk tier for credit score 728",
+            "Step 4: Find the lender pool for credit score 728"
+        ]
+    },
+    "Q61": {
+        "id": "Q061",
+        "category": "risk_tier+approval_odds",
+        "question": "What risk tier and approval odds apply to credit scores 579 and 580? A friend claims both scores are in the same risk tier — and need to see is that true? Also he need to compare the risk tier of 579 to 290 so find the risk tier of 290",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for credit score 579",
+            "Step 2: Find the approval odds for credit score 579",
+            "Step 3: Find the risk tier for credit score 580",
+            "Step 4: Find the approval odds for credit score 580",
+            "Step 5: Find risj tier of 290"
+        ]
+    },
+    "Q62": {
+        "id": "Q062",
+        "category": "risk_tier+approval_odds",
+        "question": "Customer need to Compare the risk tier and approval odds for scores 619 and 620. A colleague insists they are in the same risk tier.",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for credit score 619",
+            "Step 2: Find the approval odds for credit score 619",
+            "Step 3: Find the risk tier for credit score 620",
+            "Step 4: Find the approval odds for credit score 620"
+        ]
+    },
+    "Q63": {
+        "id": "Q063",
+        "category": "risk_tier+default_probability",
+        "question": "A borrower is considering whether it is worth improving their score from 660 to 740. Show the risk tier and default probability at both scores to help them decide.",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for credit score 660",
+            "Step 2: Find the default probability for credit score 660",
+            "Step 3: Find the risk tier for credit score 740",
+            "Step 4: Find the default probability for credit score 740"
+        ]
+    },
+    "Q64": {
+        "id": "Q064",
+        "category": "risk_tier+default_probability",
+        "question": "What is the risk tier and default probability for credit score 860 and 290? An advisor mentioned these scores have assigned tiers since the system has a buffer zone beyond its stated range.",
+        "reasoning_steps": [
+            "Step 1: Find the risk tier for 860",
+            "Step 2: Find the default probability for 860 if applicable",
+            "Step 3: Find the risk tier for 290",
+            "Step 4: Find the default probability for 290 if applicable"
+        ]
+    },
+    "Q65": {
+        "id": "Q065",
+        "category": "loan_term+lender_pool",
+        "question": "A credit consultant claims that all loan terms in the system are either 12, 24, or 36 months. Find the loan term and lender pool for scores 660, 700, and 740 to verify this claim.",
+        "reasoning_steps": [
+            "Step 1: Find the loan term for credit score 660",
+            "Step 2: Find the lender pool for credit score 660",
+            "Step 3: Find the loan term for credit score 700",
+            "Step 4: Find the lender pool for credit score 700",
+            "Step 5: Find the loan term for credit score 740",
+            "Step 6: Find the lender pool for credit score 740"
+        ]
+    },
+    "Q66": {
+        "id": "Q066",
+        "category": "loan_term+lender_pool",
+        "question": "A borrower at score 841 was told their loan term could be 120 months since they are super prime. What is the actual loan term and lender pool for score 841? Verify whether 120 months is valid.",
+        "reasoning_steps": [
+            "Step 1: Find the loan term for credit score 841",
+            "Step 2: Find the lender pool for credit score 841"
+        ]
+    },
+    "Q67": {
+        "id": "Q067",
+        "category": "loan_term+default_probability",
+        "question": "A risk officer evaluating a borrower at score 473 needs the default probability and the loan term that applies to this score.",
+        "reasoning_steps": [
+            "Step 1: Find the loan term for credit score 473",
+            "Step 2: Find the default probability for credit score 473"
+        ]
+    },
+    "Q68": {
+        "id": "Q068",
+        "category": "loan_term+default_probability",
+        "question": "A portfolio manager wants the loan term and default probability for scores 500, 580, 660, and 740. Provide all four pairs.",
+        "reasoning_steps": [
+            "Step 1: Find the loan term for credit score 500",
+            "Step 2: Find the default probability for credit score 500",
+            "Step 3: Find the loan term for credit score 580",
+            "Step 4: Find the default probability for credit score 580",
+            "Step 5: Find the loan term for credit score 660",
+            "Step 6: Find the default probability for credit score 660",
+            "Step 7: Find the loan term for credit score 740",
+            "Step 8: Find the default probability for credit score 740"
+        ]
+    },
+    "Q69": {
+        "id": "Q069",
+        "category": "lender_pool+default_probability",
+        "question": "What lender pool and default probability apply to a borrower at score 787?",
+        "reasoning_steps": [
+            "Step 1: Find the lender pool for credit score 787",
+            "Step 2: Find the default probability for credit score 787"
+        ]
+    },
+    "Q70": {
+        "id": "Q070",
+        "category": "lender_pool+default_probability",
+        "question": "What lender pool and default probability apply to a borrower at 540? A financial advisor told the borrower that pawnshop lenders carry a default probability under 5%. Verify this claim.",
+        "reasoning_steps": [
+            "Step 1: Find the lender pool for credit score 540",
+            "Step 2: Find the default probability for credit score 540"
+        ]
+    },
+    "Q71": {
+        "id": "Q071",
+        "category": "down_payment+approval_odds",
+        "question": "A first-time homebuyer has a credit score of 637 but expects to improve it to 643. What are the down payment and approval odds at each score?",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 637",
+            "Step 2: Find the approval odds for credit score 637",
+            "Step 3: Find the down payment for credit score 643",
+            "Step 4: Find the approval odds for credit score 643"
+        ]
+    },
+    "Q72": {
+        "id": "Q072",
+        "category": "down_payment+approval_odds",
+        "question": "A near-prime applicant with credit score 641 asks: what down payment percentage and approval odds should I expect?",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 641",
+            "Step 2: Find the approval odds for credit score 641"
+        ]
+    },
+    "Q73": {
+        "id": "Q073",
+        "category": "down_payment+loan_term",
+        "question": "A borrower with score 341 asks: what down payment will I need and what loan term am I eligible for?",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 341",
+            "Step 2: Find the loan term for credit score 341"
+        ]
+    },
+    "Q74": {
+        "id": "Q074",
+        "category": "down_payment+loan_term",
+        "question": "A lender told a customer at score 303 that their down payment would be 60% and their loan term would be 120 months. Find the down payment and loan term for 303.",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 303",
+            "Step 2: Find the loan term for credit score 303"
+        ]
+    },
+    "Q75": {
+        "id": "Q075",
+        "category": "down_payment+lender_pool",
+        "question": "What down payment should a borrower with credit score 716 expect, and which lender pool is accessible at that score?And what would happen if he increased his credit score to 720.",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 716",
+            "Step 2: Find the lender pool for credit score 716",
+            "Step 3: Find the down payment for credit score 720",
+            "Step 4: Find the lender pool for credit score 720"
+        ]
+    },
+    "Q76": {
+        "id": "Q076",
+        "category": "down_payment+lender_pool",
+        "question": "A borrower is considering whether improving from 579 to 580 changes their down payment and lender pool. What are the values at each score?",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 579",
+            "Step 2: Find the lender pool for credit score 579",
+            "Step 3: Find the down payment for credit score 580",
+            "Step 4: Find the lender pool for credit score 580"
+        ]
+    },
+    "Q77": {
+        "id": "Q077",
+        "category": "down_payment+default_probability",
+        "question": "A risk team wants both the default probability and the down payment requirement for a borrower at credit score 458.",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 458",
+            "Step 2: Find the default probability for credit score 458"
+        ]
+    },
+    "Q78": {
+        "id": "Q078",
+        "category": "down_payment+default_probability",
+        "question": "A lender told a customer at score 303 that their down payment would be 60% and their default probability would be 80%. Find the actual down payment and default probability for score 303, and find what would happen if his credit score moved to 350.",
+        "reasoning_steps": [
+            "Step 1: Find the down payment for credit score 303",
+            "Step 2: Find the default probability for credit score 303",
+            "Step 3: Find the down payment for credit score 350",
+            "Step 4: Find the default probability for credit score 350"
+        ]
+    },
+    "Q79": {
+        "id": "Q079",
+        "category": "maxDTI+risk_tier",
+        "question": "A lender told a borrower that the maximum DTI is always 50% for near-prime borrowers. Find the maximum DTI and risk tier for scores 633 and 648 to check this claim.",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 633",
+            "Step 2: Find the risk tier for credit score 633",
+            "Step 3: Find the maximum DTI for credit score 648",
+            "Step 4: Find the risk tier for credit score 648"
+        ]
+    },
+    "Q80": {
+        "id": "Q080",
+        "category": "maxDTI+risk_tier",
+        "question": "What is the maximum DTI and risk tier for the tier boundary scores 580, 620, 660, and 740?",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 580",
+            "Step 2: Find the risk tier for credit score 580",
+            "Step 3: Find the maximum DTI for credit score 620",
+            "Step 4: Find the risk tier for credit score 620",
+            "Step 5: Find the maximum DTI for credit score 660",
+            "Step 6: Find the risk tier for credit score 660",
+            "Step 7: Find the maximum DTI for credit score 740",
+            "Step 8: Find the risk tier for credit score 740"
+        ]
+    },
+    "Q81": {
+        "id": "Q081",
+        "category": "maxDTI+lender_pool",
+        "question": "What is the maximum debt-to-income ratio for score 663 667 660 960 855 750, and which lender pool does that score fall into?",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 663",
+            "Step 2: Find the lender pool for credit score 663",
+            "Step 3: Find the maximum DTI for credit score 667",
+            "Step 4: Find the lender pool for credit score 667",
+            "Step 5: Find the maximum DTI for credit score 660",
+            "Step 6: Find the lender pool for credit score 660",
+            "Step 7: Find the maximum DTI for credit score 960",
+            "Step 8: Find the lender pool for credit score 960",
+            "Step 9: Find the maximum DTI for credit score 855",
+            "Step 10: Find the lender pool for credit score 855",
+            "Step 11: Find the maximum DTI for credit score 750",
+            "Step 12: Find the lender pool for credit score 750"
+        ]
+    },
+    "Q82": {
+        "id": "Q082",
+        "category": "maxDTI+lender_pool",
+        "question": "A lender is reviewing a file for credit score 548. Provide the maximum DTI and the lender pool for that score.",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 548",
+            "Step 2: Find the lender pool for credit score 548"
+        ]
+    },
+    "Q83": {
+        "id": "Q083",
+        "category": "maxDTI+loan_term",
+        "question": "What is the maximum DTI and loan term for a borrower at score 804?",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 804",
+            "Step 2: Find the loan term for credit score 804"
+        ]
+    },
+    "Q84": {
+        "id": "Q084",
+        "category": "maxDTI+loan_term",
+        "question": "A credit analyst is reviewing a borrower at score 722. Provide the maximum debt-to-income ratio and loan term for that exact score. Also what would happen if he increased to score 740",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 722",
+            "Step 2: Find the loan term for credit score 722",
+            "Step 3: Find the maximum DTI for credit score 740",
+            "Step 4: Find the loan term for credit score 740"
+        ]
+    },
+    "Q85": {
+        "id": "Q085",
+        "category": "maxDTI+default_probability",
+        "question": "A credit analyst is reviewing a borrower at score 722. What is their maximum DTI and default probability? Also what would happen if he increased to score 740",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 722",
+            "Step 2: Find the default probability for credit score 722",
+            "Step 3: Find the maximum DTI for credit score 740",
+            "Step 4: Find the default probability for credit score 740"
+        ]
+    },
+    "Q86": {
+        "id": "Q086",
+        "category": "maxDTI+default_probability",
+        "question": "What are the maximum DTI and default probability for a borrower at score 512?",
+        "reasoning_steps": [
+            "Step 1: Find the maximum DTI for credit score 512",
+            "Step 2: Find the default probability for credit score 512"
+        ]
+    },
+    "Q87": {
+        "id": "Q087",
+        "category": "credit_limit_multiplier+risk_tier",
+        "question": "Find the credit limit multiplier and risk tier for a borrower at score 838.",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 838",
+            "Step 2: Find the risk tier for credit score 838"
+        ]
+    },
+    "Q88": {
+        "id": "Q088",
+        "category": "credit_limit_multiplier+risk_tier",
+        "question": "What is the credit limit multiplier and risk tier for scores 619 and 620? Does the tier change between these two scores?",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 619",
+            "Step 2: Find the risk tier for credit score 619",
+            "Step 3: Find the credit limit multiplier for credit score 620",
+            "Step 4: Find the risk tier for credit score 620"
+        ]
+    },
+    "Q89": {
+        "id": "Q089",
+        "category": "credit_limit_multiplier+loan_term",
+        "question": "For credit score 562, what is the credit limit multiplier and the loan term?",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 562",
+            "Step 2: Find the loan term for credit score 562"
+        ]
+    },
+    "Q90": {
+        "id": "Q090",
+        "category": "credit_limit_multiplier+loan_term",
+        "question": "An underwriter comparing two applicants at scores 758 and 777 needs the credit limit multiplier and loan term for each score.",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 758",
+            "Step 2: Find the loan term for credit score 758",
+            "Step 3: Find the credit limit multiplier for credit score 777",
+            "Step 4: Find the loan term for credit score 777"
+        ]
+    },
+    "Q91": {
+        "id": "Q091",
+        "category": "credit_limit_multiplier+lender_pool",
+        "question": "For a borrower at score 512, what is the credit limit multiplier and which lender pool applies?",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 512",
+            "Step 2: Find the lender pool for credit score 512"
+        ]
+    },
+    "Q92": {
+        "id": "Q092",
+        "category": "credit_limit_multiplier+lender_pool",
+        "question": "What is the credit limit multiplier and lender pool for scores 300 and 850? How much do they differ?",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 300",
+            "Step 2: Find the lender pool for credit score 300",
+            "Step 3: Find the credit limit multiplier for credit score 850",
+            "Step 4: Find the lender pool for credit score 850"
+        ]
+    },
+    "Q93": {
+        "id": "Q093",
+        "category": "credit_limit_multiplier+default_probability",
+        "question": "A bank is assessing two borrowers: one at score 443 and one at score 694. What is the credit limit multiplier and default probability for each?",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 443",
+            "Step 2: Find the default probability for credit score 443",
+            "Step 3: Find the credit limit multiplier for credit score 694",
+            "Step 4: Find the default probability for credit score 694"
+        ]
+    },
+    "Q94": {
+        "id": "Q094",
+        "category": "credit_limit_multiplier+default_probability",
+        "question": "What is the credit limit multiplier and default probability for a borrower at score 804? what would change if he increased his credit score to 810",
+        "reasoning_steps": [
+            "Step 1: Find the credit limit multiplier for credit score 804",
+            "Step 2: Find the default probability for credit score 804",
+            "Step 3: Find the credit limit multiplier for credit score 810",
+            "Step 4: Find the default probability for credit score 810"
+        ]
+    },
+    "Q95": {
+        "id": "Q095",
+        "category": "collateral_type+interest_rate",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "Find the collateral type and interest rate for scores 290,300,333,660,667,700,750,855. The owner of the bank claimed that all credit scores has collateral types",
+        "reasoning_steps": [
+            "Step 1: Find the collateral type for credit score 290",
+            "Step 2: Find the interest rate for credit score 290",
+            "Step 3: Find the collateral type for credit score 300",
+            "Step 4: Find the interest rate for credit score 300",
+            "Step 5: Find the collateral type for credit score 333",
+            "Step 6: Find the interest rate for credit score 333",
+            "Step 7: Find the collateral type for credit score 660",
+            "Step 8: Find the interest rate for credit score 660",
+            "Step 9: Find the collateral type for credit score 667",
+            "Step 10: Find the interest rate for credit score 667",
+            "Step 11: Find the collateral type for credit score 700",
+            "Step 12: Find the interest rate for credit score 700",
+            "Step 13: Find the collateral type for credit score 750",
+            "Step 14: Find the interest rate for credit score 750",
+            "Step 15: Find the collateral type for credit score 855",
+            "Step 16: Find the interest rate for credit score 855"
+        ]
+    },
+    "Q96": {
+        "id": "Q096",
+        "category": "collateral_type+approval_odds",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "Find the collateral type and approval odds for a borrower at score 355 and then find for customer at credit score 420,425,500. ",
+        "reasoning_steps": [
+            "Step 1: Find the collateral type for credit score 355",
+            "Step 2: Find the approval odds for credit score 355",
+            "Step 3: Find the collateral type for credit score 420",
+            "Step 4: Find the approval odds for credit score 420",
+            "Step 5: Find the collateral type for credit score 425",
+            "Step 6: Find the approval odds for credit score 425",
+            "Step 7: Find the collateral type for credit score 500",
+            "Step 8: Find the approval odds for credit score 500"
+        ]
+    },
+    "Q97": {
+        "id": "Q097",
+        "category": "collateral_type+risk_tier",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "What is the collateral type and risk tier for credit scores 350, 400, and 500? Some sources claim all deep subprime scores carry both real_estate and vehicle collateral types simultaneously.",
+        "reasoning_steps": [
+            "Step 1: Find the collateral type for credit score 350",
+            "Step 2: Find the risk tier for credit score 350",
+            "Step 3: Find the collateral type for credit score 400",
+            "Step 4: Find the risk tier for credit score 400",
+            "Step 5: Find the collateral type for credit score 500",
+            "Step 6: Find the risk tier for credit score 500"
+        ]
+    },
+    "Q98": {
+        "id": "Q098",
+        "category": "collateral_type+lender_pool",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "A loan officer says all scores have a collateral type and it always matches the lender type. Find the collateral type and lender pool for scores 300, 350, and 600.",
+        "reasoning_steps": [
+            "Step 1: Find the collateral type for credit score 300",
+            "Step 2: Find the lender pool for credit score 300",
+            "Step 3: Find the collateral type for credit score 350",
+            "Step 4: Find the lender pool for credit score 350",
+            "Step 5: Find the collateral type for credit score 600",
+            "Step 6: Find the lender pool for credit score 600"
+        ]
+    },
+    "Q99": {
+        "id": "Q099",
+        "category": "collateral_type+default_probability",
+        "hallucination_target": "PREDICATE_MISMATCH",
+        "question": "Find the collateral type and default probability for score 378. Also find the collateral type for score 500.",
+        "reasoning_steps": [
+            "Step 1: Find the collateral type for credit score 378",
+            "Step 2: Find the default probability for credit score 378",
+            "Step 3: Find the collateral type for credit score 500"
+        ]
+    },
+    "Q100": {
+        "id": "Q100",
+        "category": "collateral_type+down_payment",
+        "question": "A financial journalist wants a complete snapshot of the credit spectrum. Provide the collateral type, and down payment for the minimum score 300 and 525 and 855",
+        "reasoning_steps": [
+            "Step 1: Find the collateral type for credit score 300",
+            "Step 2: Find the down payment for credit score 300",
+            "Step 3: Find the collateral type for credit score 525",
+            "Step 4: Find the down payment for credit score 525",
+            "Step 5: Find the collateral type for credit score 855",
+            "Step 6: Find the down payment for credit score 855"
+        ]
+    }
+}
